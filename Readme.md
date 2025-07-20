@@ -71,4 +71,18 @@ The prepared dataset was used to train and evaluate classification models:
 * **Orbit Type Impact:** Certain orbit types (e.g., HEO, GEO, ES-L1, ISS, VLEO) show higher success rates, while GTO presents more complex landing scenarios.
 * **Model Performance:** All four machine learning models (Logistic Regression, SVM, Decision Tree, and KNN) achieved an identical test accuracy of 83.33%. This consistency suggests a similar predictive capability on the given dataset. The Decision Tree, despite matching others in test accuracy, showed a promising higher cross-validation score (0.8893) during training.
 
-## Repository Structure
+## Setup and Installation
+
+To run these notebooks, you will need to have Python installed along with the following libraries. It's recommended to use a virtual environment.
+
+```bash
+# Clone the repository
+git clone <repository_url>
+cd spacex-falcon9-landing-prediction
+
+# Create a virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+
+# Install required packages
+pip install pandas numpy requests beautifulsoup4 scikit-learn seaborn matplotlib plotly dash ipython-sql sqlalchemy prettytable
