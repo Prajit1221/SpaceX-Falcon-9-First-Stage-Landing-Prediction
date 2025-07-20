@@ -71,4 +71,3 @@ The prepared dataset was used to train and evaluate classification models:
 * **Orbit Type Impact:** Certain orbit types (e.g., HEO, GEO, ES-L1, ISS, VLEO) show higher success rates, while GTO presents more complex landing scenarios.
 * **Model Performance:** All four machine learning models (Logistic Regression, SVM, Decision Tree, and KNN) achieved an identical test accuracy of 83.33%. This consistency suggests a similar predictive capability on the given dataset. The Decision Tree, despite matching others in test accuracy, showed a promising higher cross-validation score (0.8893) during training.
 
-## Repository Structure
