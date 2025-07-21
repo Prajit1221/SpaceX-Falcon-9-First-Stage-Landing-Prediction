@@ -15,12 +15,7 @@ This project focuses on predicting the successful landing of the SpaceX Falcon 9
   - [Data Preparation & Feature Engineering](#data-preparation--feature-engineering)
   - [Machine Learning Models](#machine-learning-models)
 - [Key Findings & Results](#key-findings--results)
-- [Repository Structure](#repository-structure)
-- [Setup and Installation](#setup-and-installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+
 
 ## Problem Statement
 
